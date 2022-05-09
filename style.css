@@ -4,6 +4,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 35px;
+}
 .container {
   display: flex;
 }
@@ -26,4 +29,18 @@ h1 {
   padding: 20px 30px;
   margin: 20px;
   border-radius: 10px;
+}
+.orange-color {
+  color: orange;
+}
+.single-mission {
+  margin-inline: auto;
+  width: 25%;
+  margin-bottom: 100px;
+  padding: 25px;
+  border-radius: 20px;
+}
+.single-mission img {
+  margin-left: 85px;
+  width: 50%;
 }
