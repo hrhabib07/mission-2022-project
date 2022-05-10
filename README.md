@@ -4,7 +4,7 @@ This project is a proof that I have basic knowledge about HTML and CSS which are
 
 ## Live site  
 
-[Click here](https://hrhabib07.github.io/developer-portfolio-recap/)
+[Click here](https://hrhabib07.github.io/mission-2022-project/index.html)
 
 
 ## 🛠 Skills
