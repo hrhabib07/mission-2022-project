@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 h1 {
   font-size: 50px;
@@ -55,4 +56,68 @@ p {
 }
 .app-image {
   margin-left: 300px;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+.single-plan {
+  margin-inline: auto;
+  text-align: center;
+  width: 25%;
+  border-radius: 20px;
+  background-color: gainsboro;
+}
+.single-plan img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.container-img {
+  position: relative;
+}
+.tour-plan-section {
+  background-color: gainsboro;
+  padding-bottom: 150px;
+  padding-top: 70px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-img:hover .image {
+  opacity: 0.3;
+}
+
+.container-img:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
