@@ -1,4 +1,4 @@
-# Develoepr portfolio 
+# Mission 2022 project 
 
 This project is a proof that I have basic knowledge about HTML and CSS which are the fundamental tools of making a website. 
 
